@@ -1,0 +1,23 @@
+.wrapper {
+    display: inline-block;
+}
+
+.line {
+    background-color: black;
+    height: 5px;
+    width: 35px;
+    margin: 5px;
+    transition: transform 0.4s;
+}
+
+.change .line1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .line2 {
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotate(45deg) translate(-8px, -6px);
+}
